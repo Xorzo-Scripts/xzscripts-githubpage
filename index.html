@@ -1,5 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"></html>
+<html>
+<head>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">xz-Adminmenu</a>
+  <a href="#">xz-Shoplift</a>
+  <a href="#">xz-Blackmarket</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer; position: absolute;" onclick="openNav()">&#9776</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html> 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +30,10 @@
 </head>
 <body>
     <div class="header" id="header">
-        <img src="logo.png"><a  class="tbxbtn" href="https://google.com">Tebex</a>
+        <a  class="tbxbtn" href="https://google.com">Tebex</a>
         <a  class="tbxbtn" href="https://discord.gg/Ssp7AzF3Jr">Discord</a>
         <a  class="tbxbtn" href="https://github.com/Xorzo-Scripts">Github</a>
-        <a  class="tbxbtn" href="docs.html">Docs</a>
+        <a  class="tbxbtn" href="about.html">About Us</a>
     </div>
     <div class="heroheader" style="text-align: center;">
     <div class="hero">
@@ -31,3 +53,5 @@
     </div>
 </body>
 </html>
+
+
