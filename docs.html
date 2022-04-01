@@ -24,3 +24,58 @@
 </body>
 </html>
 
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="sidenav">
+    <button class="dropdown-btn">xz-adminmenu 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <ul>
+         <li><a href="adminmenu/installation.html">Installation</a></li>
+         <li><a href="adminmenu/commands.html">Commands</a></li>
+         <li><a href="adminmenu/events.html">Events</a></li>
+        </ul>
+    </div>
+  <button class="dropdown-btn">zx-shoplift 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+	<ul>
+     <li><a href="index.html">Installation</a></li>
+    </ul>
+  </div>
+  <button class="dropdown-btn">zx-blackmarket 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+	<ul>
+    <li><a href="index.html">Installation</a></li>
+    </ul>
+  </div>
+</div>
+<script>
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+</body>
+</html> 
