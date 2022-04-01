@@ -20,8 +20,8 @@ body {
 }
 
 .heroimg {
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    filter: blur(15px);
+    -webkit-filter: blur(15px);
 }
 
 .herobackimg {
@@ -165,4 +165,20 @@ body {
   
   .dropdown-container ul {
     width: 150px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    display: none;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 77, 0); 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: green; 
   }
