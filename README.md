@@ -1,6 +1,7 @@
 # Xorzo Scripts
 
 > https://discord.com/invite/Ssp7AzF3Jr
+
 > https://github.com/Xorzo-Scripts
 
 # Who are we?
