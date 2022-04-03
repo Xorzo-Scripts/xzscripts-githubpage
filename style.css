@@ -230,9 +230,9 @@ body {
   }
    
   ::-webkit-scrollbar-thumb {
-    background: rgb(0, 77, 0); 
+    background: #34BC85; 
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: green; 
+    background: #34BC85; 
   }
