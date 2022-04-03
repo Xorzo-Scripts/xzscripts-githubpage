@@ -7,7 +7,11 @@
 # Who are we?
 > Xorzo Scripts is a development group founded by Xorzo. 
 
-# Xorzo Advantages
+> Our short name is XZ-Scripts.
+
+# XZ Scripts Advantages
 > Active Support
+> 
 > Friendly community
+> 
 > Professional Devs
