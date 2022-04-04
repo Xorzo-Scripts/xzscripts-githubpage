@@ -37,6 +37,7 @@ body {
     width: 100%;
     margin-top: 200px;
     position: absolute;
+    
 }
 
 button {
@@ -45,6 +46,7 @@ button {
   padding: 0.7em 2.7em;
   letter-spacing: 0.36em;
   position: relative;
+  font-family: 'Nunito', sans-serif;
   float: right; 
   font-family: inherit;
   border-radius: 0.9em;
@@ -81,8 +83,8 @@ button {
  button2 {
   --green: #1BFD9C;
   font-size: 15px;
-  padding: 0.7em .7em;
-  letter-spacing: 0.06em;
+  padding: 0.3em 0.7em;
+  letter-spacing: 0.03em;
   position: relative;
   float: right; 
   font-family: inherit;
